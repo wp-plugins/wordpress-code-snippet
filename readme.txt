@@ -1,7 +1,7 @@
 === Wordpress Code Snippet ===
 Contributors: Allan Collins
 Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=acollins%40paonia%2ecom&item_name=Wordpress%20Plugin&no_shipping=0&no_note=1&tax=0&currency_code=USD&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
-Tags: Google, SEO, Yahoo, Webmaster Tools, Meta
+Tags: code, snippet, syntax highlighter
 Requires at least: 2.5
 Tested up to: 2.7
 Stable tag: 1.0
