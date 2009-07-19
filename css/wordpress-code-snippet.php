@@ -3,7 +3,7 @@
 Plugin Name: Wordpress Code Snippet
 Plugin URI: http://www.allancollins.net/wordpress-code-snippet/
 Description: Add code snippets to posts without reformatting issues.
-Version: 1.1
+Version: 1.0
 Author: Allan Collins
 Author URI: http://www.allancollins.net
 */
