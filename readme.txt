@@ -4,7 +4,7 @@ Donate link:https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=acolli
 Tags: code, snippet, syntax highlighter
 Requires at least: 2.7
 Tested up to: 3.0.1
-Stable tag: 2.0
+Stable tag: 2.0.1
 
 This plugin will allow you to add code snippets to your pages/posts.  This is great for code tutorial sites.
 
@@ -46,4 +46,7 @@ If you are upgrading from version 1.0, you will see an option on the Code Librar
 * Snippets can now be placed anywhere in the post/page's content.
 * More than one snippet can be added to a page/post.
 * One click upgrade feature to upgrade from version 1.
+
+= 2.0.1 =
+* Updated option credit link as an option and not the default.
 

@@ -2,7 +2,7 @@
 
 /**
  * @package WordPress Code Snippet
- * @version 2.0
+ * @version 2.0.1
  * @author Allan Collins
  *
  * @todo TinyMCE Button Integration

@@ -4,7 +4,7 @@ Plugin Name: Wordpress Code Snippet
 Plugin URI: http://www.allancollins.net/486/wordpress-code-snippet-2-0/
 Description: Add code snippets to pages and posts.  Excellent for tutorial sites.
 Author: Allan Collins
-Version: 2.0
+Version: 2.0.1
 Author URI: http://www.allancollins.net
 */
 require_once("wcs.php");
@@ -22,7 +22,7 @@ add_action('init', array($wcs,'ajax'));
 register_activation_hook( __FILE__, 'wcsCredit' );
 
 function wcsCredit(){
-    update_option('wcsLink',true);
+    update_option('wcsLink',false);
 }
 /*
  * @todo TinyMCE Integration

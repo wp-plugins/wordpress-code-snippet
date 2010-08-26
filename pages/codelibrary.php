@@ -95,7 +95,7 @@ return true;
         }
     ?>
         <br/><br/>
-           <h2>Support Further Development</h2>
+           <h2>Support Further Development (Donate $$ or a Link)</h2>
         <form action="admin.php?page=wordpress-code-snippet/wcs.php" id="allowlinkwcs">
             <input type="checkbox" id="wcslink" name="wcslink" value="1" <?php echo $checked; ?>/> <small>Show Plugin Credit Link?</small>
             <input type="submit" value="Update"  />
@@ -112,4 +112,10 @@ return true;
 <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
+
+
+        <br/><br/>
+        <b>Having Issues?</b><br/>
+        Visit the plugin's homepage at: <a href="http://www.allancollins.net/486/wordpress-code-snippet-2-0/">AllanCollins.net</a> for assistance.<br/>
+        <em>Be sure to specify what browser and other plugins you are using.</em>
 </div>
