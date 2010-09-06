@@ -2,7 +2,7 @@
 
 /**
  * @package WordPress Code Snippet
- * @version 2.0.1
+ * @version 2.0.2
  * @author Allan Collins
  *
  * @todo TinyMCE Button Integration
@@ -142,7 +142,7 @@ CREATE TABLE IF NOT EXISTS `wcs_lib` (
      */
 
     function adminInit() {
-        wp_enqueue_script('codepress');
+       // wp_enqueue_script('codepress');
         wp_enqueue_script('jquery');
         wp_enqueue_script('jquery-ui-core');
         wp_enqueue_script('jquery-ui-resizable');
@@ -329,7 +329,7 @@ CREATE TABLE IF NOT EXISTS `wcs_lib` (
                     if ($language == 'jscript') {
                         $language = 'js';
                     }
-                    $snip->snippet = htmlentities($snip->snippet);
+                    $snip->snippet = htmlentities(strip_slashes($snip->snippet));
                     $final = "<pre class=\"brush: $language\">$snip->snippet</pre>";
                     $text = str_replace("<!--WCS[$id]-->", $final, $text);
                 }
