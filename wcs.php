@@ -329,7 +329,7 @@ CREATE TABLE IF NOT EXISTS `wcs_lib` (
                     if ($language == 'jscript') {
                         $language = 'js';
                     }
-                    $snip->snippet = htmlentities(strip_slashes($snip->snippet));
+                    $snip->snippet = htmlentities(stripslashes($snip->snippet));
                     $final = "<pre class=\"brush: $language\">$snip->snippet</pre>";
                     $text = str_replace("<!--WCS[$id]-->", $final, $text);
                 }
